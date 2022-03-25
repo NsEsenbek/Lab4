@@ -1,0 +1,9 @@
+1
+     from datetime import *
+     d = datetime.now()
+     print(int(d.strftime("%d")) - 5)
+3
+     from datetime import *
+     d = datetime.now()
+     print(str(d)[0:19])
+4 
